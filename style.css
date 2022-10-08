@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #1F2937;
+    border-bottom: 1px solid white;
+}
+
+.header__logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__img{
+    width: 200px;
+    height: auto;
+    padding: 15px;
+    border-radius: 20px;
+    margin-inline-start: -150px;
+}
+
+.nav{
+    width: 250px;
+}
+
+
+.header__list, a{
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-inline-end: -130px;
+}
+
+.section__up{
+    display: flex;
+    justify-content: space-evenly;
+    height: 400px;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.section__text{
+    padding: 20px;
+    height: 250px;
+    text-align: left;
+}
+
+.section__h1{
+    border: 10px bold red;
+    font-size: 48px;
+    font: bold;
+    color: #F9FAF8;
+    max-width: 300px;
+}
+
+.section__p{
+    font-size: 18px;
+    color: #E5E7EB;
+    text-align: left;
+    max-width: 300px;
+}
+
+.section__btn{
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-top: 10px;
+    margin-left: -650px;
+    font-size: 14px;
+    margin-inline-start: -365px;
+}
+
+.section__img-img{
+    width: 350px;
+    height: 250px;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.section__middle{
+       background-color: white;
+}
+
+.section__middle-text{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    font-size: 30px;
+}
+
+.section__middle-boxes{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    gap: 20px;
+}
+
+.section__middle-box{
+    border-radius: 5px;
+    max-width: 150px;
+    height: 150px; 
+    margin-bottom: 30px;
+}
+
+.section__middle-imges{
+    border-radius: 5px;
+    width: 150px;
+    height: 150px;
+    border: 2px solid #3882F6;
+}
+
+.section__middle-p{
+    padding: 5px;
+    text-align: center;
+    font-size: 10px;
+    max-width: 150px;
+    margin-bottom: 30px;
+    width: auto;
+    position: relative;
+    top: 120px;
+    right: 35px;
+}
+
+.article__quote{
+    background-color: #E5E7EB;
+    margin-top: 100px;
+}
+
+.section__quote-p{
+    display: flex;
+    justify-items: flex;
+    align-items: center;
+    text-align: center;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    padding: 100px;
+    margin-left: 200px;
+}
+
+.section__quote-sign{
+    text-align: right;
+    margin-bottom: 20px;
+    margin-right: 300px;
+    padding-bottom: 60px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer__action{
+    display: flex;
+    justify-content: space-evenly;
+    height: 150px;
+    width: 900px;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 5px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.footer__action-text-h3{
+    display: flex;
+    padding-left: 100px;
+    padding-top: 40px;
+    color: #E5E7EB;
+    margin-left: -150px;
+}
+
+.footer__action-text-p{
+    display: flex;
+    padding-left: 100px;
+    padding-bottom: 40px;
+    color: #E5E7EB;
+    margin-left: -150px;
+}
+
+.footer__action-btn-box{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 75%;
+    height: 20px;
+    padding-right: 80px;
+}
+
+.footer__action-btn{
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 80px;
+    margin-top: 10px;
+}
+
+.footer__bottom{
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
+
+.footer__bottom-p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
